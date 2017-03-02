@@ -11,9 +11,9 @@
     
 	<dubbo:consumer registry="zk1" />
 	
-	<dubbo:reference id="speakInterface" interface="com.foxdd.dubbo.dubbo_interface.SpeakInterface" version="7.0.0"/>
+	<dubbo:reference id="speakInterface" interface="com.foxdd.dubbo.dubbo_interface.SpeakInterface" version="8.0.0"/>
 	
-	<dubbo:reference id="speakInterface2" interface="com.foxdd.dubbo.dubbo_interface.SpeakInterface" version="3.0.0"/>
+	<dubbo:reference id="speakInterface2" interface="com.foxdd.dubbo.dubbo_interface.SpeakInterface" version="5.0.0"/>
 
 
 </beans>

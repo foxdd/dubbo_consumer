@@ -22,9 +22,12 @@ public class BaseTest {
 	public void test(){
 		People people = new People();
 		people.setAge(18);
-		people.setName("dubboTest");
+		people.setName("dubboTest1");
 		System.out.println(speakInterface2.speak(people));  
 	}
 	
+	public void test1(){
+		System.out.println("hello-world");
+	}
 	
 }
